@@ -8,9 +8,9 @@ To ensure all healthcare and public health analytics projects are reproducible, 
 
 ## Step 1 — Data Acquisition
 
-    Obtain data from approved sources.
-    Preserve original raw data.
-    Never modify raw files directly.
+Obtain data from approved sources.
+Preserve original raw data.
+Never modify raw files directly.
 
 Store in:
 
@@ -21,12 +21,12 @@ data/raw/
 
 Review:
 
-    Row count
-    Column count
-    Data types
-    Missing values
-    Duplicates
-    Variable definitions
+Row count
+Column count
+Data types
+Missing values
+Duplicates
+Variable definitions
 
 Document findings.
 
@@ -35,11 +35,11 @@ Document findings.
 
 Perform:
 
-    Datatype correction
-    Missing value investigation
-    Duplicate investigation
-    Standardization
-    Validation checks
+Datatype correction
+Missing value investigation
+Duplicate investigation
+Standardization
+Validation checks
 
 All cleaning must be scripted.
 
@@ -48,11 +48,11 @@ All cleaning must be scripted.
 
 Validate:
 
-    Dates
-    Categories
-    Numeric ranges
-    Temporal logic
-    Biological plausibility
+Dates
+Categories
+Numeric ranges
+Temporal logic
+Biological plausibility
 
 Document all findings.
 
@@ -61,10 +61,10 @@ Document all findings.
 
 Conduct:
 
-    Descriptive analysis
-    Epidemiological summaries
-    Indicator calculations
-    Statistical analysis
+Descriptive analysis
+Epidemiological summaries
+Indicator calculations
+Statistical analysis
 
 Ensure all code is reproducible.
 
@@ -73,10 +73,10 @@ Ensure all code is reproducible.
 
 Produce:
 
-    QC Report
-    Stakeholder Summary
-    Visualizations
-    Dashboard Outputs
+QC Report
+Stakeholder Summary
+Visualizations
+Dashboard Outputs
 
 Document assumptions and limitations.
 
@@ -85,10 +85,10 @@ Document assumptions and limitations.
 
 Use Git for:
 
-    Commit history
-    Change tracking
-    Collaboration
-    Reproducibility
+Commit history
+Change tracking
+Collaboration
+Reproducibility
 
 Push important milestones to GitHub.
 
@@ -97,18 +97,18 @@ Push important milestones to GitHub.
 
 Store:
 
-    Final scripts
-    Reports
-    Processed datasets
+Final scripts
+Reports
+Processed datasets
 
 Maintain complete project traceability.
 
 
 # Core Principles
 
-    Reproducibility
-    Accountability
-    Traceability
-    Transparency
-    Data Governance
-    Professional Documentation
+Reproducibility
+Accountability
+Traceability
+Transparency
+Data Governance
+Professional Documentation

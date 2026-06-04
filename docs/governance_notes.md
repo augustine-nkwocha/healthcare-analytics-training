@@ -6,10 +6,10 @@ HIPAA is a U.S. healthcare privacy law that regulates how patient health informa
 
 Key principles:
 
-    Protect PHI
-    Restrict unauthorized access
-    Minimize exposure of sensitive information
-    Support patient privacy rights
+Protect PHI
+Restrict unauthorized access
+Minimize exposure of sensitive information
+Support patient privacy rights
 
 
 ## GDPR
@@ -18,12 +18,12 @@ GDPR is a European privacy regulation that governs the collection, storage, use,
 
 Key principles:
 
-    Lawful data collection
-    Purpose limitation
-    Data minimization
-    Transparency
-    Right to access
-    Right to deletion
+Lawful data collection
+Purpose limitation
+Data minimization
+Transparency
+Right to access
+Right to deletion
 
 
 ## PHI vs PII
@@ -47,9 +47,9 @@ Data where direct identifiers have been removed, but re-identification may still
 
 ## Governance Principles
 
-    Privacy
-    Security
-    Accountability
-    Traceability
-    Reproducibility
-    Responsible Data Use
+Privacy
+Security
+Accountability
+Traceability
+Reproducibility
+Responsible Data Use
