@@ -48,6 +48,38 @@ def convert_dates(df):
 
     return df
 
+def temporal_qc(df):
+
+    onset_before_infection = (
+        df["date_onset"] < df["infection_date"]
+    ).sum()
+
+    hosp_before_onset = (
+        df["hosp_date"] < df["date_onset"]
+    ).sum()
+
+    outcome_before_hosp = (
+        df["date_of_outcome"] < df["hosp_date"]
+    ).sum()
+
+    return {
+        "onset_before_infection":
+            onset_before_infection,
+
+        "hosp_before_onset":
+            hosp_before_onset,
+
+        "outcome_before_hosp":
+            outcome_before_hosp
+    }
+
+def outcome_before_hosp_records(df):
+
+    return df[
+        df["date_of_outcome"]
+        < df["hosp_date"]
+    ]
+
 # =====================
 # LOAD DATA
 # =====================
@@ -98,6 +130,43 @@ date_cols = [
 
 print(df[date_cols].isna().sum())
 
+print("\n")
+print("=" * 50)
+print("TEMPORAL QC")
+print("=" * 50)
+
+print(
+    temporal_qc(df)
+)
+
+print("\n")
+print("=" * 50)
+print("OUTCOME BEFORE HOSP SAMPLE")
+print("=" * 50)
+
+print(
+    outcome_before_hosp_records(df)[
+        [
+            "case_id",
+            "hosp_date",
+            "date_of_outcome",
+            "outcome"
+        ]
+    ].head(10)
+)
+
+print("\n")
+print("=" * 50)
+print("OUTCOME BEFORE HOSP PERCENT")
+print("=" * 50)
+
+percent = (
+    outcome_before_hosp_records(df).shape[0]
+    / len(df)
+) * 100
+
+print(round(percent, 2))
+
 # =====================
 # BASIC PROFILE
 # =====================
@@ -129,3 +198,5 @@ print("=" * 50)
 print("DUPLICATE ROWS")
 print("=" * 50)
 print(df.duplicated().sum())
+
+
