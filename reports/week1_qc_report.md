@@ -12,12 +12,12 @@ Dataset Type: Ebola Line-list
 
 ## Missingness
 
-## | Variable        | Missing Count | Missing Percent |
-   | ---------------- ---------------  --------------- |
-   | infection_date  |     2322      |     35.12%      |
-   | hospital        |     1512      |     22.87%      |
-   | outcome         |     1500      |     22.69%      |
-   | date_of_outcome |     1068      |     16.15%      |
+| Variable        | Missing Count | Missing Percent |
+|-----------------|---------------|-----------------|
+| infection_date  | 2322          | 35.12%          |
+| hospital        | 1512          | 22.87%          |
+| outcome         | 1500          | 22.69%          |
+| date_of_outcome | 1068          | 16.15%          |
 
 ## Duplicates
 
