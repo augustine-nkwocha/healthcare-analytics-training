@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 def missingness_report(df):
 
@@ -79,6 +80,21 @@ def outcome_before_hosp_records(df):
         df["date_of_outcome"]
         < df["hosp_date"]
     ]
+
+def invalid_time_report(df):
+
+    pattern = r"^([01]?[0-9]|2[0-3]):[0-5][0-9]$"
+
+    invalid = df[
+        df["time_admission"]
+        .notna()
+        &
+        ~df["time_admission"]
+        .astype(str)
+        .str.match(pattern)
+    ]
+
+    return invalid     
 
 # =====================
 # LOAD DATA
@@ -166,6 +182,40 @@ percent = (
 ) * 100
 
 print(round(percent, 2))
+
+print("\n")
+print("=" * 50)
+print("INVALID TIME QC")
+print("=" * 50)
+
+invalid_times = invalid_time_report(df)
+
+print(
+    "Invalid Times:",
+    invalid_times.shape[0]
+)
+
+print(
+    "Percent:",
+    round(
+        (
+            invalid_times.shape[0]
+            / len(df)
+        ) * 100,
+        2
+    )
+)
+
+print("\n")
+print("=" * 50)
+print("INVALID TIME SAMPLE")
+print("=" * 50)
+
+print(
+    invalid_times[
+        ["case_id", "time_admission"]
+    ].head(10)
+)
 
 # =====================
 # BASIC PROFILE
