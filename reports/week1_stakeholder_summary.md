@@ -25,8 +25,9 @@ The review identified several issues that may affect epidemiological interpretat
    - 53 invalid admission times were found.
    - This represents 0.80% of the dataset.
 
-5. Exact duplicate rows were limited.
-   - 2 exact duplicate rows were detected.
+5. Duplicate Records
+   - Two exact duplicate records were identified and removed.
+   - Final cleaned dataset contains 6,609 records.
 
 ## Public Health Implications
 
@@ -44,6 +45,7 @@ Invalid admission times appear less widespread but should still be corrected or 
 - Investigate missing outcome records before estimating mortality.
 - Flag records where outcome dates occur before hospitalization dates.
 - Validate admission-time entry rules at the data collection stage.
+- Continue monitoring duplicate record generation during data collection and ingestion.
 - Preserve raw data and document all cleaning decisions.
 - Use the cleaned dataset only after QC flags have been reviewed.
 

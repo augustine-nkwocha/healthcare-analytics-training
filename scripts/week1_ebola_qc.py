@@ -49,6 +49,13 @@ def convert_dates(df):
 
     return df
 
+def clean_dataset(df):
+
+    df = standardize_columns(df)
+    df = convert_dates(df)
+
+    return df
+
 def temporal_qc(df):
 
     onset_before_infection = (
@@ -95,6 +102,18 @@ def invalid_time_report(df):
     ]
 
     return invalid     
+
+def duplicate_records(df):
+
+    return df[
+        df.duplicated(
+            keep=False
+        )
+    ]
+
+def remove_exact_duplicates(df):
+
+    return df.drop_duplicates()
 
 # =====================
 # LOAD DATA
@@ -216,6 +235,27 @@ print(
         ["case_id", "time_admission"]
     ].head(10)
 )
+
+print("\n")
+print("=" * 50)
+print("DUPLICATE RECORDS")
+print("=" * 50)
+
+print(
+    duplicate_records(df)
+)
+
+df = remove_exact_duplicates(df)
+
+# Save cleaned/intermediate dataset
+cleaned_path = "data/interim/linelist_cleaned.csv"
+df.to_csv(cleaned_path, index=False)
+
+print("\n")
+print("=" * 50)
+print("CLEANED DATASET SAVED")
+print("=" * 50)
+print(cleaned_path)
 
 # =====================
 # BASIC PROFILE

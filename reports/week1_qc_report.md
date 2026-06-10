@@ -2,9 +2,9 @@
 
 ## Dataset Summary
 
-Rows: 6611
-
-Columns: 28
+- Original dataset rows: 6611
+- Final cleaned dataset rows: 6609
+- Columns: 28
 
 Dataset Type: Ebola Line-list
 
@@ -21,7 +21,9 @@ Dataset Type: Ebola Line-list
 
 ## Duplicates
 
-Exact duplicate rows: 2
+- Exact duplicate rows identified: 2
+- Exact duplicate rows removed: 2
+- Final cleaned dataset rows: 6609
 
 ## Temporal Violations
 
