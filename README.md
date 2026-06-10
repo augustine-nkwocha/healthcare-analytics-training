@@ -81,7 +81,8 @@ reports/week1_stakeholder_summary.md
 
 ## Duplicate Records
 
-- 2 exact duplicate rows identified
+- Two exact duplicate records were identified and removed.
+- Final cleaned dataset contains 6,609 records.
 
 ## Temporal Quality Issues
 
