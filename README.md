@@ -143,10 +143,8 @@ tests/
 notebooks/
 
 
-
-## Status
-
-Week 1 completed.
-
-Next phase:
-COVID surveillance analytics, dataset merging, epidemic curves, reporting-lag analysis, and automated pipelines.
+## Completed Projects
+- Week 1 - Ebola Line_list Data Qaulity Assessment
+- Week 2 - COVID Surveillance Analytics
+- Week 3 - WHO Health Indicator Analysis
+- Week 4 - Nigeria DHS Childhood Stunting Analysis
