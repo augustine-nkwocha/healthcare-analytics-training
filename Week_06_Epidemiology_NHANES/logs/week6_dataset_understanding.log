@@ -1,0 +1,26 @@
+2026-08-12 13:08:57,086 | INFO | ========================================================================
+2026-08-12 13:08:57,087 | INFO | WEEK 6 DATASET UNDERSTANDING STARTED
+2026-08-12 13:08:57,087 | INFO | ========================================================================
+2026-08-12 13:08:57,089 | INFO | All 4 required input files were verified.
+2026-08-12 13:08:57,089 | INFO | Loading 'demographics' from P_DEMO.xpt
+2026-08-12 13:08:57,252 | INFO | Loaded 'demographics': 15560 rows and 29 columns.
+2026-08-12 13:08:57,367 | INFO | Loading 'body_measures' from P_BMX.xpt
+2026-08-12 13:08:57,458 | INFO | Loaded 'body_measures': 14300 rows and 22 columns.
+2026-08-12 13:08:57,542 | INFO | Loading 'smoking' from P_SMQ.xpt
+2026-08-12 13:08:57,593 | INFO | Loaded 'smoking': 11137 rows and 16 columns.
+2026-08-12 13:08:57,654 | INFO | Loading 'diabetes' from P_DIQ.xpt
+2026-08-12 13:08:57,807 | INFO | Loaded 'diabetes': 14986 rows and 28 columns.
+2026-08-12 13:08:57,936 | INFO | Dataset summary saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\reports\week6_dataset_understanding_summary.csv
+2026-08-12 13:08:57,937 | INFO | Variable inventory saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\reports\week6_dataset_variable_inventory.csv
+2026-08-12 13:08:57,938 | INFO | Missingness summary saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\reports\week6_dataset_missingness_summary.csv
+2026-08-12 13:08:58,279 | INFO | Markdown report saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\reports\week6_dataset_understanding_report.md
+2026-08-12 13:08:58,281 | INFO | Dataset-level summary:
+2026-08-12 13:08:58,296 | INFO | 
+ dataset_name  file_name  rows  columns  duplicate_rows  missing_identifier_values  duplicate_identifier_values  total_missing_values  missing_percentage  memory_usage_bytes
+ demographics P_DEMO.xpt 15560       29               0                          0                            0                 81161               17.99             3610052
+body_measures  P_BMX.xpt 14300       22               0                          0                            0                175445               55.77             2516932
+      smoking  P_SMQ.xpt 11137       16               0                          0                            0                120929               67.86             1425668
+     diabetes  P_DIQ.xpt 14986       28               0                          0                            0                338049               80.56             3356996
+2026-08-12 13:08:58,297 | INFO | ========================================================================
+2026-08-12 13:08:58,298 | INFO | WEEK 6 DATASET UNDERSTANDING COMPLETED SUCCESSFULLY
+2026-08-12 13:08:58,299 | INFO | ========================================================================

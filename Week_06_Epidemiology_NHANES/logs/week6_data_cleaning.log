@@ -1,0 +1,34 @@
+2026-08-13 17:16:29,483 | INFO | ========================================================================
+2026-08-13 17:16:29,483 | INFO | WEEK 6 DATA CLEANING STARTED
+2026-08-13 17:16:29,483 | INFO | ========================================================================
+2026-08-13 17:16:29,503 | INFO | Research dataset loaded: 9693 rows × 10 columns.
+2026-08-13 17:16:29,508 | INFO | SEQN validation passed.
+2026-08-13 17:16:29,510 | INFO | RIDAGEYR validation passed.
+2026-08-13 17:16:29,513 | INFO | RIAGENDR coding validation passed.
+2026-08-13 17:16:29,515 | INFO | SMQ020 coding validation passed.
+2026-08-13 17:16:29,517 | INFO | SMQ040 coding validation passed.
+2026-08-13 17:16:29,518 | INFO | DIQ010 coding validation passed.
+2026-08-13 17:16:29,519 | INFO | Survey-design variable validation passed.
+2026-08-13 17:16:29,574 | INFO | Derived variable created: sex.
+2026-08-13 17:16:29,585 | INFO | Derived variable created: smoking_status.
+2026-08-13 17:16:29,589 | INFO | Derived variable created: diabetes_status.
+2026-08-13 17:16:29,609 | INFO | Derived-variable validation passed.
+2026-08-13 17:16:29,712 | INFO | Cleaned dataset saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\data\processed\week6_cleaned_dataset.csv
+2026-08-13 17:16:29,713 | INFO | Cleaning summary saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\reports\week6_cleaning_summary.csv
+2026-08-13 17:16:29,713 | INFO | Rows before cleaning: 9693
+2026-08-13 17:16:29,713 | INFO | Rows after cleaning: 9693
+2026-08-13 17:16:29,716 | INFO | Smoking status:
+smoking_status
+Never      5799
+Former     2205
+Current    1684
+NaN           5
+2026-08-13 17:16:29,717 | INFO | Diabetes status:
+diabetes_status
+No diabetes    7998
+Diabetes       1423
+NaN             272
+2026-08-13 17:16:29,717 | INFO | Missing BMI: 903
+2026-08-13 17:16:29,718 | INFO | ========================================================================
+2026-08-13 17:16:29,718 | INFO | WEEK 6 DATA CLEANING COMPLETED SUCCESSFULLY
+2026-08-13 17:16:29,718 | INFO | ========================================================================

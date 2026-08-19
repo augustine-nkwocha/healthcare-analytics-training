@@ -1,0 +1,28 @@
+2026-08-04 10:56:21,487 | INFO | ======================================================================
+2026-08-04 10:56:21,487 | INFO | WEEK 6 DATA ACQUISITION STARTED
+2026-08-04 10:56:21,488 | INFO | ======================================================================
+2026-08-04 10:56:21,488 | INFO | Project root: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES
+2026-08-04 10:56:21,488 | INFO | Raw-data directory verified: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\data\raw
+2026-08-04 10:56:21,489 | INFO | All 4 required NHANES files were found.
+2026-08-04 10:56:21,489 | INFO | Loading dataset 'demographics' from P_DEMO.xpt
+2026-08-04 10:56:21,592 | INFO | Loaded 'demographics': 15560 rows and 29 columns.
+2026-08-04 10:56:21,600 | INFO | Identifier 'SEQN' verified in 'demographics'.
+2026-08-04 10:56:21,616 | INFO | Loading dataset 'body_measures' from P_BMX.xpt
+2026-08-04 10:56:21,661 | INFO | Loaded 'body_measures': 14300 rows and 22 columns.
+2026-08-04 10:56:21,662 | INFO | Identifier 'SEQN' verified in 'body_measures'.
+2026-08-04 10:56:21,664 | INFO | Loading dataset 'smoking' from P_SMQ.xpt
+2026-08-04 10:56:21,709 | INFO | Loaded 'smoking': 11137 rows and 16 columns.
+2026-08-04 10:56:21,709 | INFO | Identifier 'SEQN' verified in 'smoking'.
+2026-08-04 10:56:21,711 | INFO | Loading dataset 'diabetes' from P_DIQ.xpt
+2026-08-04 10:56:21,780 | INFO | Loaded 'diabetes': 14986 rows and 28 columns.
+2026-08-04 10:56:21,781 | INFO | Identifier 'SEQN' verified in 'diabetes'.
+2026-08-04 10:56:21,795 | INFO | Acquisition summary saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\reports\week6_data_acquisition_summary.csv
+2026-08-04 10:56:21,802 | INFO | Acquisition summary:
+ dataset_name  file_name  file_size_bytes  rows  columns identifier  missing_identifier_values  duplicate_identifier_values
+ demographics P_DEMO.xpt          3614720 15560       29       SEQN                          0                            0
+body_measures  P_BMX.xpt          2520640 14300       22       SEQN                          0                            0
+      smoking  P_SMQ.xpt          1428560 11137       16       SEQN                          0                            0
+     diabetes  P_DIQ.xpt          3361520 14986       28       SEQN                          0                            0
+2026-08-04 10:56:21,802 | INFO | ======================================================================
+2026-08-04 10:56:21,802 | INFO | WEEK 6 DATA ACQUISITION COMPLETED SUCCESSFULLY
+2026-08-04 10:56:21,802 | INFO | ======================================================================

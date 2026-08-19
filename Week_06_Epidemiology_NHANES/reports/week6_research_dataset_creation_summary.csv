@@ -1,0 +1,4 @@
+component,base_rows_before_merge,component_rows,matched_participants,unmatched_participants,variables_added,rows_after_merge,participants_before_age_restriction,participants_excluded_age_under_18,adult_participants_retained
+smoking,15560,11137,11137,4423,2,15560,15560,5867,9693
+diabetes,15560,14986,14986,574,1,15560,15560,5867,9693
+body_measures,15560,14300,14300,1260,1,15560,15560,5867,9693

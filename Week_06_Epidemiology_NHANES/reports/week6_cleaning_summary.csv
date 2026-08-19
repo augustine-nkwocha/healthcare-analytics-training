@@ -1,0 +1,13 @@
+check,count
+total_adult_participants,9693
+male,4718
+female,4975
+never_smokers,5799
+former_smokers,2205
+current_smokers,1684
+unresolved_smoking_status,5
+diabetes,1423
+no_diabetes,7998
+unresolved_binary_diabetes_status,272
+missing_bmi,903
+missing_survey_weight,0

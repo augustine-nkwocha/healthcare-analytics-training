@@ -1,0 +1,5 @@
+dataset_name,file_name,file_size_bytes,rows,columns,identifier,missing_identifier_values,duplicate_identifier_values
+demographics,P_DEMO.xpt,3614720,15560,29,SEQN,0,0
+body_measures,P_BMX.xpt,2520640,14300,22,SEQN,0,0
+smoking,P_SMQ.xpt,1428560,11137,16,SEQN,0,0
+diabetes,P_DIQ.xpt,3361520,14986,28,SEQN,0,0

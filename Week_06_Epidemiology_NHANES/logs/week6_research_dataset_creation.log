@@ -1,0 +1,17 @@
+2026-08-13 15:47:48,228 | INFO | ========================================================================
+2026-08-13 15:47:48,228 | INFO | WEEK 6 RESEARCH DATASET CREATION STARTED
+2026-08-13 15:47:48,229 | INFO | ========================================================================
+2026-08-13 15:47:48,326 | INFO | demographics selected: 15560 rows × 6 columns.
+2026-08-13 15:47:48,356 | INFO | smoking selected: 11137 rows × 3 columns.
+2026-08-13 15:47:48,416 | INFO | diabetes selected: 14986 rows × 2 columns.
+2026-08-13 15:47:48,458 | INFO | body_measures selected: 14300 rows × 2 columns.
+2026-08-13 15:47:48,487 | INFO | smoking merge: 11137 matched, 4423 unmatched.
+2026-08-13 15:47:48,499 | INFO | diabetes merge: 14986 matched, 574 unmatched.
+2026-08-13 15:47:48,512 | INFO | body_measures merge: 14300 matched, 1260 unmatched.
+2026-08-13 15:47:48,514 | INFO | Adult restriction: 9693 retained from 15560 participants.
+2026-08-13 15:47:48,593 | INFO | Research dataset saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\data\processed\week6_research_dataset.csv
+2026-08-13 15:47:48,597 | INFO | Research dataset creation summary saved to: C:\Users\ASUS\Desktop\healthcare_analytics_training\Week_06_Epidemiology_NHANES\reports\week6_research_dataset_creation_summary.csv
+2026-08-13 15:47:48,598 | INFO | Final research dataset dimensions: 9693 rows × 10 columns.
+2026-08-13 15:47:48,598 | INFO | ========================================================================
+2026-08-13 15:47:48,598 | INFO | WEEK 6 RESEARCH DATASET CREATION COMPLETED SUCCESSFULLY
+2026-08-13 15:47:48,598 | INFO | ========================================================================
